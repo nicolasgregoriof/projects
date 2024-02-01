@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+:root{
+    --primary-color: #00adb3;
+    --primary-color-dark: #003536;
+    --primary-font: 'Open sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: var(--primary-font);
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    background: #dfdfdf;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.form-control input, label, .form-button input{
+    display: block;
+    width: 100%;
+
+}
+
+.form-control input{
+    font-size: 24px;
+    padding: 10px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.form-control input:focus {
+    outline: 2px solid var(--primary-color);
+}
+
+.form-button input{
+    margin-top: 30px;
+}
+
+.form-button input{
+    border: none;
+    background: var(--primary-color);
+    color: azure;
+    font-size: 20px;
+    font-weight: 700;
+    height: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.form-button input:hover{
+    background: var(--primary-color-dark);
+}
+
+.paragrafo-resultado{
+    background: #00ff15;
+    font-family: var(--primary-font);
+    color: rgb(1, 41, 41);
+    height: 50px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.paragrafo-resultado-bad{
+    background: #dd0505bd;
+    font-family: var(--primary-font);
+    color: azure;
+    height: 50px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.resultado{
+    height: 50px;
+    
+}

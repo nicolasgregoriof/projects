@@ -1,0 +1,11 @@
+npm init -y
+
+npm install express-handlebars
+npm install express express-flash 
+npm install express-session --> promove autenticação mais simples no express
+npm install sequelize mysql2 --> gerenciar banco de dados
+npm install bcryptjs --> Pacote que realiza criptografia da senha 
+npm install connect-flash --> flash message
+npm install cookie-parser cookie-session --> entende que o usuário está logado
+npm install session-file-store
+npm install --save-dev nodemon     script:  "start": "nodemon ./index.js localhost 3000"
